@@ -1,4 +1,3 @@
-# oVirt design documentation
-The design documents are arranged per their corresponding verticals.
+# oVirt development documentation
 
 [Design Documentation](design/index.md)
