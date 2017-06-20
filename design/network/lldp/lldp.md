@@ -17,7 +17,7 @@ This information is usefull for operators and admins to manage and troubleshoot 
 
 ## VDSM implementation options
 
-VDSM is planned to collect LLDP information through LLDPDA or NetworkManager services.
+VDSM is planned to collect LLDP information through LLDPAD or NetworkManager services.
 - LLDPDA is as imidiate silution to the data collection as it can be used by VDSM as a driver without any special work dependency.
 - In order to use NetworkManager, a preliminary work is required in VDSM to fully integrate it as an active configuration driver, replacing the existing ifcfg usage.
 
