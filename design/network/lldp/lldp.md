@@ -89,3 +89,25 @@ LLDP-MED Capabilities TLV
 	Capabilities: LLDP-MED, Network Policy, Location Identification, Extended Power via MDI-PSE
 End of LLDPDU TLV
 ~~~~
+
+### VDSM - NM
+
+#### NM report format
+
+~~~
+NEIGHBOR[0].DEVICE:                     enp5s0f0
+NEIGHBOR[0].CHASSIS-ID:                 18:EF:63:A1:66:AD
+NEIGHBOR[0].PORT-ID:                    Gi0/45
+NEIGHBOR[0].PORT-DESCRIPTION:           GigabitEthernet0/45
+NEIGHBOR[0].SYSTEM-NAME:                rack11-sw01-lab4.tlv.redhat.com
+NEIGHBOR[0].SYSTEM-DESCRIPTION:         Cisco ...
+NEIGHBOR[0].SYSTEM-CAPABILITIES:        20 (mac-bridge,router)
+NEIGHBOR[0].IEEE-802-1-PVID:            150
+NEIGHBOR[0].IEEE-802-1-PPVID:           --
+NEIGHBOR[0].IEEE-802-1-PPVID-FLAGS:     --
+NEIGHBOR[0].IEEE-802-1-VID:             --
+NEIGHBOR[0].IEEE-802-1-VLAN-NAME:       --
+NEIGHBOR[0].DESTINATION:                nearest-bridge
+NEIGHBOR[0].CHASSIS-ID-TYPE:            4
+NEIGHBOR[0].PORT-ID-TYPE:               7
+~~~
