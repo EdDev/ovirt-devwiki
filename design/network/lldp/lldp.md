@@ -7,7 +7,7 @@ This information is usefull for operators and admins to manage and troubleshoot 
 
 ## Requirements
 
-- Expose through oVirt REST the LLDP TLV information from the host interfaces.
+- Expose LLDP TLV information of host interfaces through oVirt REST
 
 - Requirements open questions:
   - At what resolution the LLDP info request is to be supported? One request per cluster/host/iface/tlv?
