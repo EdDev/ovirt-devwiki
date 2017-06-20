@@ -43,6 +43,8 @@ Note: The oui & subtype are relevant only when the type is 0x7f.
 
 PoC work has been initiated to report LLDP information using LLDPAD, introducing the LLDPAD driver, its interface and integrating them into the network caps report.
 
+https://gerrit.ovirt.org/#/q/status:open+project:vdsm+branch:master+topic:lldp-reporting
+
 #### Code Module structure
 
 These are the modules involved in the LLDP driver & interface:
